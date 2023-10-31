@@ -7,15 +7,17 @@ public class PlayerMovement : MonoBehaviour
     /// <summary>
     /// this script has playermovement
     /// </summary>
-    // Start is called before the first frame update
-    void Start()
+
+    private Vector3 moveDirection;
+    public float speed = 5f;
+    public void Jump()
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Movement()
     {
-        
+        //moves player
     }
+    //code for player movement done
 }
